@@ -13,6 +13,8 @@ public class ifCetakKRS14{
             System.out.println("Silahkan Cetak KRS dan Minta TAnda Tangan DPA");
         }else{
             System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
-        }
-    }
+            
+        }String hasilCetak = uktlunas ? "Pembayaran UKT Terverifikasi\nSilahkan Cetak KRS dan Minta Tanda Tangan DPA"  : "Registrasi ditolak. Silakan lunasi UKT terlebih dahulu";
+        System.out.println(hasilCetak);
+     }
 }
